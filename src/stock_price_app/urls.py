@@ -20,6 +20,5 @@ from django.conf.urls import url
 from stock_price_app.views.test import test_view
 
 urlpatterns = [
-        url(r'^$', test_view),
     path('admin/', admin.site.urls),
 ]
